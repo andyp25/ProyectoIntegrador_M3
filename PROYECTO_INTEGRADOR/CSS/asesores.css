@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: black;
+}
+
+table{
+    width: 100%;
+   
+}
+
+th{
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+ td{
+    text-align: center;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}   
+
+img{
+    border-radius: 20px;
+    box-shadow: 0 0 5px white;
+}
+
+button{
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    margin: 10px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: antiquewhite;
+    transition: background-color 0.3s, transform 0.2s
+}
+
+button:hover{
+    background-color: gray;
+    color: rgb(240, 235, 235);
+    transform: scale(1.05);
+}

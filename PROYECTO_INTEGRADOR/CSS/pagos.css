@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #000000;
+}
+
+h2{
+    margin: 20px;
+    padding: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.texto{
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+}
+
+.text-input{
+    width: 30%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    cursor: pointer;
+}
+
+.text-input:hover{
+    box-shadow: 0 0 20px gray;
+    color: rgb(31, 30, 30);
+    transform: scale(1.05);
+}
+
+button{
+    margin: 20px;
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 8px rgb(245, 240, 240);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover{
+    background-color: green;
+    color: black;
+    transform: scale(1.05);
+}
+
+option{
+    background-color: #000000;
+    color: white;
+}

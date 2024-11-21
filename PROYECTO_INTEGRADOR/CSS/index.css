@@ -1,0 +1,40 @@
+html{
+    background-color: rgb(207, 207, 207);
+}
+
+main{
+    margin: 20px;
+    padding: 20px;
+}
+
+main h1{
+    color: white;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.video{
+    background-color: white;
+    display: block;
+    margin: auto;
+    padding: auto;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+.button{
+    display: flex;
+    position: relative;
+    left: 45%;
+    top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: rgb(90, 115, 226);
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+}
